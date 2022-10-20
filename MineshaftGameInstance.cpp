@@ -74,7 +74,6 @@ void UMineshaftGameInstance::LoadSaveGames()
 
 void UMineshaftGameInstance::LoadSession()
 {
-	check(Grid);
 	LoadSaveGame(ESaveGameType::Session);
 }
 
