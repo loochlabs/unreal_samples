@@ -93,8 +93,3 @@ void UMineshaftGameInstance::ValidateLoadComplete()
 	if(bComplete)
 		LoadCompleteDelegate.Broadcast();
 }
-
-void UMineshaftGameInstance::AddWidgetToViewport(UUserWidget* widget, EUIZOrderLayer layer /*= EUIZOrderLayer::None*/)
-{
-	widget->AddToViewport(static_cast<int32>(layer));
-}
